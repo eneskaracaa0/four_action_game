@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>four action game</title>
+    <style>
+        body {
+            color: #fff;
+            background-color: #573334;
+        }
+        
+        #game {
+            width: 350px;
+            background-color: #424242;
+            padding: 16px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        h1 {
+            margin: 0 0 18px 0;
+            border: solid 1px #fff;
+            padding: 5px;
+            font-weight: 400;
+        }
+        
+        span {
+            font-size: 125%;
+            padding: 12px;
+        }
+        
+        #result {
+            width: 90px;
+        }
+        
+        #answer {
+            margin-top: 10px;
+            padding: 5px;
+            border: none;
+            width: 100px;
+            background-color: #636060;
+            color: white;
+        }
+        
+        #answer:hover {
+            background-color: #2181e7;
+        }
+        
+        #True,
+        #False {
+            font-size: 150%;
+            margin-top: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+        
+        #True {
+            background-color: #1c9695;
+        }
+        
+        #False {
+            background-color: #bd0c0c;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game">
+        <h1>Dört İşlem Oyunu</h1>
+        <span id="Number1">0</span><span id="Operator">+</span
+      ><span id="Number2">0</span><span>=</span
+      ><input type="text" id="result" /><input
+        type="button"
+        id="answer"
+        value="Cevapla"
+      />
+      <div style="clear: both"></div>
+      <div id="True">0</div>
+      <div id="False">0</div>
+      <div style="clear: both"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
